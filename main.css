@@ -43,4 +43,23 @@ body {
   cursor: pointer;
 }
 
+.cards{
+  height:80vh;
+  overflow-y: scroll;
+}
+.checkout{
+  margin-top:20px;
+}
+.scrollbar {
+  padding-left: 8px;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
 /*# sourceMappingURL=output.css.map */
