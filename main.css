@@ -37,9 +37,18 @@ body {
   box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.8);
 }
 .menu .card-body {
+  position: relative;
   cursor: pointer;
 }
 .menu .card-body input, .menu .card-body .card-title {
+  cursor: pointer;
+}
+.action-cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   cursor: pointer;
 }
 
